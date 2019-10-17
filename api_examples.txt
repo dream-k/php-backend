@@ -1,0 +1,51 @@
+api/return_users
+{"page":"1","limit":"30","api_key":"5E8FF9BF55BA3508199D22E984129BE6"}
+api/return_user
+{"user_id":"2","api_key":"5E8FF9BF55BA3508199D22E984129BE6"}
+api/find_users
+{"page":"1","keyword":"sam","api_key":"5E8FF9BF55BA3508199D22E984129BE6"}
+api/insert_user
+replace the values with yours.
+
+
+{
+"values":
+[
+"firstName", "lastName", "email" ,"password","userTypeId","status","countryCode","phoneNumber",
+"gender","dateOfBirth","personalIdentity","twilioUID","fidoBufferId","authenticator","registered"
+],
+"api_key":"5E8FF9BF55BA3508199D22E984129BE6"
+}
+
+
+
+{
+"values":
+[
+"ClientTest", "API Client", "api@client.com" ,"23877hf723","1","active","4","34344342242",
+"female","1996-01-12","nothinghere","thh432","33hht32","none","2019-07-21 22:51:33"
+],
+"api_key":"5E8FF9BF55BA3508199D22E984129BE6"
+}
+
+api/return_vehicles
+{"page":"1","limit":"30","api_key":"5E8FF9BF55BA3508199D22E984129BE6"}
+
+api/return_vehicle
+{"vehicle_id":"1","api_key":"5E8FF9BF55BA3508199D22E984129BE6"}
+
+api/find_vehicle
+{"page":"1","keyword":"sam","api_key":"5E8FF9BF55BA3508199D22E984129BE6"}
+
+
+api/return_orders
+{"page":"1","limit":"30","api_key":"5E8FF9BF55BA3508199D22E984129BE6"}
+
+
+api/return_order
+{"order_id":"1","api_key":"5E8FF9BF55BA3508199D22E984129BE6"}
+
+api/insert_order
+
+//same as for inserting users. must follow the mysql column names from orders without the id field
+

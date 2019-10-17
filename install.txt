@@ -1,0 +1,2 @@
+edit api_lib/config.php
+ and set the database params

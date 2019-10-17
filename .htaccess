@@ -1,0 +1,29 @@
+Options +FollowSymLinks
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+RewriteRule api/return_users api_query/return_users.php
+RewriteRule api/return_user api_query/return_user.php
+RewriteRule api/find_user api_query/find_user.php
+RewriteRule api/insert_user api_query/insert_user.php
+
+RewriteRule api/return_vehicles api_query/return_vehicles.php
+RewriteRule api/return_vehicle api_query/return_vehicle.php
+RewriteRule api/find_vehicle api_query/find_vehicle.php
+RewriteRule api/insert_vehicle api_query/insert_vehicle.php
+
+RewriteRule api/return_orders api_query/return_orders.php
+RewriteRule api/return_order api_query/return_order.php
+RewriteRule api/insert_order api_query/insert_order.php
+
+RewriteRule api/return_services api_query/return_services.php
+RewriteRule api/return_service api_query/return_service.php
+RewriteRule api/insert_service api_query/insert_service.php
+
+RewriteRule api/return_user_type api_query/return_user_type.php
+
+
+
+
+
